@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
 :root {
     --primary: #9e1f1f;
     --primary-dark: #7e1818;
@@ -153,15 +155,37 @@ footer {
     padding: 2rem 1rem;
 }
 
+/* DETALHES.HTML FEITO PELO GUI */
+.text_woman{
+    font-family: "Livvic", sans-serif;
+
+}
+
+.title_woman{
+    font-size: 3rem;
+    font-family: "Livvic", sans-serif;
+
+}
+
+.date_woman{
+    font-size: 1.2rem;
+    font-family: "Livvic", sans-serif;
+}
+.font_woman{
+    font-size: 0.8rem;
+    font-family: "Livvic", sans-serif;
+    text-align: left;
+}
+
 /* RESPONSIVO */
 @media (min-width: 768px) {
     header {
         height: 150px;
     }
-    
-    .info-section {
+
+    /* .info-section {
         grid-template-columns: 1fr 1fr;
-    }
+    } */
 
     .info-section {
         grid-template-columns: 1fr 1fr;
@@ -170,5 +194,17 @@ footer {
 
     .info-section.reverse {
         grid-template-areas: "image content";
+    }
+
+    .img_woman{
+        width: 300px;
+        height: 294px;
+        float: left;
+        margin-right: 5%;
+    }
+    .circle{
+        width: 300px;
+        height: 300px;
+
     }
 }

@@ -18,9 +18,11 @@ fetch('js/mulheres.json')
     }
 
     section.innerHTML = `
-      <h1>${mulher.nome}</h1>
-      <img src="${mulher.foto}" alt="${mulher.nome}">
-      <p>${mulher.texto}</p>
+      <h1 class="title_woman">${mulher.nome}</h1>
+      <h2 class="date_woman">${mulher.data}</h1>
+      <img class="img_woman" src="${mulher.foto}" alt="${mulher.nome}">
+      <p class="text_woman">${mulher.texto}</p>
+      <p class="font_woman">Fonte: ${mulher.fonte}</p>
     `;
 
     container.appendChild(section);
