@@ -47,7 +47,7 @@ a {
 
 /* HEADER */
 header {
-    min-height: clamp(140px, 20vw, 222px);
+    min-height: clamp(120px, 20vw, 200px);
     background: linear-gradient(
         to bottom,
         #bf3e37 0%,
@@ -133,10 +133,15 @@ main {
     justify-content: center;
     align-items: center;
 }
+.img_woman{
+    display: flex;
+    width: 100%;
+
+}
 
 .circle {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-color: var(--primary);
     color: var(--white);
@@ -154,6 +159,7 @@ footer {
     text-align: center;
     padding: 2rem 1rem;
 }
+
 
 /* DETALHES.HTML FEITO PELO GUI */
 .text_woman{
@@ -175,6 +181,13 @@ footer {
     font-size: 0.8rem;
     font-family: "Livvic", sans-serif;
     text-align: left;
+}
+.img-pequena{
+    display: none;
+}
+.img-grande{
+    display: block;
+    width: 100%;
 }
 
 /* RESPONSIVO */
@@ -207,4 +220,7 @@ footer {
         height: 300px;
 
     }
+    /* .img-grande{
+        display: none;
+    } */
 }
